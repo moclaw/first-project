@@ -8,14 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <title>Danh sách bạn phây búc</title>
 </head>
-<center>
-    <font size="12" color="blue" font-family: "Lobster", cursive;>
+<center> 
+    <font size="12" color="blue" font-family: "Lobster", cursive;> <!-- Lỗi 1: Thẻ <font> là một thẻ kép, em mở ra nhưng không đóng lại. (SAI) -- 
+    <!-- Lỗi 2: CSS font-family: ... phải được khai báo bên trong style = "" không được khai báo bên ngoài thẻ <font> (SAI) --
         <ul>FACEBOOK</ul>
-    </font>
+    </font> <!-- Lỗi 3: Thẻ phải được mở sau đó mới đóng, do em đã đóng thẻ ở trên nên xuống đây em đóng là sai (SAI) --
     <a target=" _blank " href="https://www.facebook.com/cowlove3107/ "><button>facebook anh cow</button></a>
     <a target="_blank " href="https://www.facebook.com/Kitawanodesu/ "><button>facebook của tuôi</button></a>
     <a target="_blank " href="https://www.facebook.com/groups/837891780373958 "><button>nhóm nhó</button></a>
     <a target="_blank " href="https://www.youtube.com/watch?v=nfQsTGoTbrM&ab_channel=M%E1%BB%99tB%E1%BA%A3nT%C3%ACnhCa "><button>Không biết thêm gì</button></a>
-    <a target="_blank " href="https://owasp.org/www-project-top-ten/2017/A1_2017-Injection "><button>Injection</button></a></body>
+    <a target="_blank " href="https://owasp.org/www-project-top-ten/2017/A1_2017-Injection "><button>Injection</button></a></body> <!-- Lỗi 4: Không khai báo mở <body> lại có khai báo đóng <body>  (SAI) -- 
+ <!-- L
 
 </html>
